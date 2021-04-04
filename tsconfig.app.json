@@ -3,7 +3,7 @@
   "extends": "./tsconfig.json",
   "compilerOptions": {
     "outDir": "./out-tsc/app",
-    "types": []
+    "types": ["googlemaps"]             //***********ADD THIS IN YOUR FILE TO USE GOOGLEMAP ******************* //
   },
   "files": [
     "src/main.ts",
